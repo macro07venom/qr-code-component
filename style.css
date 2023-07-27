@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -27,20 +29,22 @@ img {
 }
 .container {
     margin: 15vh auto;
-    width: 360px ;
+    width: 335px ;
     background-color: var(--White);
     border-radius: 1rem;
    padding: 15px;
     text-align: center;
     color: var(--Grayishblue);
+    box-shadow: -5px 5px 70px -50px black;
 }
-.container h2 {
+.container h1 {
     color: var(--Darkblue);
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: -5px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
 }
 .container .desc {
-    margin-top : -5px;
     padding: 0 20px 10px;
 }
 @media all and (max-width: 375px) {
